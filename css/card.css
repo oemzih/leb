@@ -100,16 +100,16 @@ p {
 
 h2 {
   text-align: center;
-  font-size: 3.0rem;
+  font-size: 4vw;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 3vw;
 }
 
 p {
-  font-size: 2rem;
-  padding-left: 1rem;
+  font-size: 3vw;
+  padding-left: 1vw;
 }
 
 #card-container {
@@ -118,10 +118,10 @@ p {
 }
 
 #card-footer {
-  margin-top: -50px;
+  margin-top: -10vw;
   background: #ce9a54;
-  height: 48px;
-  padding: 2px 8px;
+  height: 10vw;
+  /* padding: 2px 8px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ p {
   padding-right: 2rem;
   text-align: right;
   position: absolute;
-  bottom: 80px;
+  bottom: 15vw;
   right: 0px;
 }
 
