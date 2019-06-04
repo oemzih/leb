@@ -100,15 +100,15 @@ p {
 
 h2 {
   text-align: center;
-  font-size: 4vw;
+  font-size: 7vw;
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 p {
-  font-size: 3vw;
+  font-size: 5vw;
   padding-left: 1vw;
 }
 
@@ -118,10 +118,9 @@ p {
 }
 
 #card-footer {
-  margin-top: -10vw;
+  margin-top: -13vw;
   background: #ce9a54;
-  height: 10vw;
-  /* padding: 2px 8px; */
+  height: 13vw;
   display: flex;
   justify-content: center;
   align-items: center;
