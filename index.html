@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Concert One|Lato|Petit Formal
+		Script|Amatic+SC|Dancing+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/card.css">
+
+</head>
+
+<body>
+	<h1>Buat Kartu Lebaranmu Sendiri! <br> <small> by Infopandeglang.com </small></h1>
+
+	<div class="row form-container">
+		<div class="one-half column">
+			<form>
+				<label for="title">Judul Kartu:</label>
+				<input type="text" id="title" name="title">
+				<label for="from">Pengirim:</label>
+				<textarea id="from" name="from"></textarea>
+				<!-- <input type="text" id="from" name="from"> -->
+				<label for="from">Pilih Tema:</label>
+				<select id="image">
+					<option value="./img/image1.jpeg">Tema 1</option>
+					<option value="./img/image2.jpeg">Tema 2</option>
+					<option value="./img/image3.jpeg">Tema 3</option>
+					<option value="./img/image4.jpeg">Tema 4</option>
+					<option value="./img/image5.jpeg">Tema 5</option>
+				</select>
+			</form>
+		</div>
+		<div class="one-half column">
+			<form>
+				<label for="msg">Pesan:</label>
+				<textarea id="msg" name="message"></textarea>
+				<button id="save-button">Simpan Kartu Lebaran</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="card-container" class="row">
+		<div class="one-third column text-container">
+			<!-- <div id="snow"></div> -->
+			<h2 id="card-title">Selamat Hari Raya <br><small>Idul Fitri 1440 H</small></h2>
+			<p id="card-msg">Waktu mengalir bagaikan air Ramadhan suci akan berakhir. Untuk salah yang pernah ada dan khilaf
+				yang
+				sempat terucap Pintu ma'af selalu ku harap. Mohon Maaf Lahir dan Batin.</br>
+				<h3 id="card-from">Dengan segala kerendahan hati, </br>Keluarga Besar Infopandeglang.com</h3>
+		</div>
+		<!-- <div class="two-thirds column"> -->
+		<!-- <img id="card-image" src="./img/image1.jpeg"> -->
+		<!-- <div id="snow"></div> -->
+		<!-- </div> -->
+		<div id="card-footer">
+			Template by infopandeglang.com
+		</div>
+	</div>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script> -->
+	<script src="js/main.js"></script>
+	<script src="js/html2canvas.js"></script>
+
+</body>
+
+</html>
